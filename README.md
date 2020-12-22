@@ -1,2 +1,2 @@
-# resume
+# Resume
 Personal website built using React.
