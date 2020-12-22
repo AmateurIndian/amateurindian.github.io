@@ -14,7 +14,7 @@ const Footer = () => {
             <div>
                 <Typography className='footer_left'>
                     Design and Developed by {" "}
-                    <a href={resumeData.social.linkedin.link}  target="_blank">Sarjeel Yusuf</a>
+                    <a href={"https://github.com/AmateurIndian/resume"}  target="_blank">Sarjeel Yusuf</a>
                     <br/>
                     Resume inspired by {" "}
                     <a href={"https://www.youtube.com/channel/UCSEy8lBnjp42x5W1JPcca0w"} target="_blank">Salmaan Fazal</a>
