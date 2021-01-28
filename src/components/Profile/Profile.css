@@ -3,6 +3,7 @@
     border-radius: 6px;
     width: 100%;
     display: inline-block;
+    box-shadow: 0 2px 2px 0 !important;
 
 }
 

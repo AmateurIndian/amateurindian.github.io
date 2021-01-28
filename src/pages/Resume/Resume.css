@@ -63,18 +63,3 @@
     margin-left: 20px;
 }
 
-.publication_image{
-    max-width: 150px;
-    max-height: 150px;
-}
-
-.publication_image_container{
-    
-    text-align: center !important;
-}
-
-.publication_container > a:hover{
-    box-shadow: 10px 10px 5px #000000 !important;
-    -moz-box-shadow: 0px 10px 5px #000000 !important;
-  -webkit-box-shadow: 0px 10px 5px #000000 !important; 
-}

@@ -4,7 +4,6 @@ import CustomTimeline, {CustomTimelineSeperator} from "../../components/Timeline
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
 import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import resumeData from '../../utils/resumeData'
@@ -106,34 +105,6 @@ const Resume = () => {
                 </Grid>
 
             </Grid>
-
-            {/* Publicartions */}
-            <Grid container className="section">
-                
-                <Grid item className='section_title mb_30'>
-                    <span></span>
-                    <h6 className='section_title_text'>Publications Featured In</h6>
-                </Grid>
-
-                <Grid item xs={12}>
-                   <Grid container justify='space-around'>
-                        {Object.keys(resumeData.publications).map((publication) => (
-                            <Grid className='publication_container' item xs={12} sm={4} md={4}>
-                                <a href={resumeData.publications[publication].link} target='_blank'>
-                                    <figure className='publication_image_container'>
-                                        <img className='publication_image' src={resumeData.publications[publication].image}/>
-                                    </figure>
-                                </a>
-                            </Grid>
-
-                        ))} 
-                   </Grid> 
-                </Grid>
-
-            </Grid>
-
-            {/* Skills */}
-            <Grid container className="section"></Grid>
 
         </>
 

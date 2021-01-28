@@ -1,0 +1,64 @@
+/* Tabs*/
+.customTabs .active{
+    color: var(--main-color) !important;
+}
+
+.customTabs .customTabs_item{
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+}
+
+/* Cards*/
+.customCard{
+    height: 100%;
+    width: 200px;
+    border-radius: 5px;
+    outline-width: 0px !important;
+    padding-bottom: 20px !important;
+}
+
+.customCard > a:link{
+    text-decoration: none;
+    color: black;
+    background:linear-gradient(transparent 220px, rgb(221, 221, 221));
+}
+
+.customCard > a:hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.customCard .customeCard_image{
+    height: 120px;
+    max-width: 300px;
+}
+
+.customCard .customeCard_title{
+    font-weight: 500;
+}
+
+.customCard .customerCard_description{
+    
+}
+
+
+.publication_image{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.publication_image_container{
+    
+    text-align: center !important;
+}
+
+.publication_container > a:hover{
+    box-shadow: 10px 10px 5px #000000 !important;
+    -moz-box-shadow: 0px 10px 5px #000000 !important;
+  -webkit-box-shadow: 0px 10px 5px #000000 !important; 
+}
