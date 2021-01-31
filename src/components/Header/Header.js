@@ -12,6 +12,7 @@ import {link, NavLink, withRouter} from 'react-router-dom';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import './Header.css'
 import resumeData from '../../utils/resumeData'
+import { Typography } from '@material-ui/core';
 
 
 

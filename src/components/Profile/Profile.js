@@ -9,6 +9,7 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
+import Pdf from '../../assets/documents/syusuf_CV.pdf'
 
 
 
@@ -53,7 +54,8 @@ const Profile = () => {
                 </CustomTimeline>
                 
                 <div className={'btn_container'}>
-                    <CustomButton text="Download CV" icon={<SystemUpdateAltIcon/>}></CustomButton>
+                    <CustomButton text="Download CV" icon={<SystemUpdateAltIcon/>}>
+                    </CustomButton>
                 </div>
             </div>
         </div>

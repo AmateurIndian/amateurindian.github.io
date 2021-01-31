@@ -9,16 +9,13 @@ import Portfolio from './pages/Portfolio/Portfolio'
 import Resume from './pages/Resume/Resume'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-
-
-
 import './App.css';
 
 
 
 function App() {
   return (
-    <Container className={'top_60'}>
+    <Container className={'main_body'}>
       <Grid container spacing={7}>
         
         <Grid item xs={12} sm={12} md={3} lg={3}  >
