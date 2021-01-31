@@ -84,7 +84,9 @@ const Portfolio = () => {
                 <Tabs 
                 value ={tabValue} 
                 indicatorColor='white' 
-                className='customTabs' 
+                className='customTabs'
+                variant='scrollable' 
+                scrollButtons='on'
                 onChange={(event, newValue) => setTabValue(newValue)}>
                     <Tab
                         label='All' 
