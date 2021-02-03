@@ -11,6 +11,7 @@
     font-size: 14px !important;
     font-weight: 400 !important;
     outline-width: 0px !important;
+    color: darkslategray !important;
 }
 
 /* Cards*/
@@ -20,11 +21,12 @@
     border-radius: 5px;
     outline-width: 0px !important;
     padding-bottom: 20px !important;
+    color: darkslategray !important;
 }
 
 .customCard > a:link{
     text-decoration: none;
-    color: black;
+    color: darkslategray;
     background:linear-gradient(transparent 220px, rgb(221, 221, 221));
 }
 
@@ -33,16 +35,16 @@
     color: var(--main-color);
 }
 
-.customCard .customeCard_image{
+.customCard .customCard_image{
     height: 120px;
     max-width: 300px;
 }
 
-.customCard .customeCard_title{
+.customCard .customCard_title{
     font-weight: 500;
 }
 
-.customCard .customerCard_description{
+.customCard .customCard_description{
     
 }
 

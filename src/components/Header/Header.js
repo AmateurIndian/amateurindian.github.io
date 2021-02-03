@@ -12,14 +12,10 @@ import {link, NavLink, withRouter} from 'react-router-dom';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import './Header.css'
 import resumeData from '../../utils/resumeData'
-import { Typography } from '@material-ui/core';
-
 
 
 const Header = (props) => {
     const pathName = props.location.pathname;
-
-    console.log(props.location)
 
     return (
 
@@ -45,11 +41,20 @@ const Header = (props) => {
             </Nav>
 
             {/*Portfolio Link*/}
-            <Nav className='header_left'>
+            <Nav>
                 <Nav.Link as={NavLink} to='/portfolio' className={
                     pathName === '/portfolio' ? 'header_link_active' : 'header_link'
                 }>
                     Blogs&Publications
+                </Nav.Link>
+            </Nav>
+
+            {/*Portfolio Link*/}
+            <Nav className='header_left'>
+                <Nav.Link as={NavLink} to='/speaking' className={
+                    pathName === '/speaking' ? 'header_link_active' : 'header_link'
+                }>
+                    Speaking
                 </Nav.Link>
             </Nav>
 

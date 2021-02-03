@@ -4,6 +4,8 @@ import { IoLogoMedium } from "@react-icons/all-files/io5/IoLogoMedium";
 import { IoLogoTwitter } from "@react-icons/all-files/io5/IoLogoTwitter";
 import { IoLogoGithub } from "@react-icons/all-files/io5/IoLogoGithub";
 import { IoLogoLinkedin } from "@react-icons/all-files/io5/IoLogoLinkedin";
+import {IoLogoYoutube} from "@react-icons/all-files/io5/IoLogoYoutube";
+import { IoGlobeSharp } from "@react-icons/all-files/io5/IoGlobeSharp";
 import aws1 from '../assets/images/AWS1.png';
 import dzone from '../assets/images/dzone.png';
 import tns from '../assets/images/thenewstack.png';
@@ -338,6 +340,67 @@ export default{
 
 
 
+    ],
+
+    speaking: [
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/cff9b616-8a09-4230-8721-d25d4edf08f8.png",
+            title: "DevOps for Monolith",
+            eventName: "Atlassian team.work 2020 Summit",
+            date: "28/10/2020",
+            description: "As software building cultural practices evolve, we have seen a drift away from monolith to microservices. However, this change in shift is not experienced equally for all companies. This thus requires introspection into the available services and solutions for teams still running monolith systems. ",
+            links:[
+                {link: "https://hackernoon.com/are-we-measuring-product-success-correctly-advice-for-pms-z54f34dt", icon: <IoLogoYoutube/>},
+                {link: "https://hackernoon.com/are-we-measuring-product-success-correctly-advice-for-pms-z54f34dt", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/Screen+Shot+2021-02-02+at+20.50.05.png",
+            title: "Better IoT with Serverless GraphQL",
+            eventName: "GraphQL Asia",
+            date: "22/02/2020",
+            description: "IoT was meant to revolutionize how we were meant to integrate tech into our lives. However, IoT adoption is dismal due to a myriad of problems. The solution lies in the way we service our IoT devices on the data and compute layer, and a serverless GraphQL architecture has all the solutions.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=GrFmeCz8oUo", icon: <IoLogoYoutube/>},
+                {link: "https://graphql.asia/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/download.jpeg",
+            title: "Tackling Dreaded .Net Cold Starts When Going Serverless",
+            eventName: "NDC Sydney",
+            date: "18/10/2019",
+            description: "Cold starts are an inherited problem of serverless, but .NET developers suffer the most as cold start durations for .NET runtimes are the highest. It is imperative we know the issues with .NET, what is being done by serverless vendors to solve this, and how can developers overcome these cold starts.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=ciuNxlMm358", icon: <IoLogoYoutube/>},
+                {link: "https://ndcsydney.com/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/960x540.jpg",
+            title: "Better IoT with Serverless GraphQL",
+            eventName: "ServerlessDays Istanbul",
+            date: "03/10/2019",
+            description: "IoT was meant to revolutionize how we were meant to integrate tech into our lives. However, IoT adoption is dismal due to a myriad of problems. The solution lies in the way we service our IoT devices on the data and compute layer, and a serverless GraphQL architecture has all the solutions.",
+            links:[
+                {link: "https://istanbul.serverlessdays.io/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/highres_479181436.png",
+            title: "Reshaping Data Driven Application Development with GraphQL and AppSync",
+            eventName: "Turkey Serverless",
+            date: "10/03/2019",
+            description: "The talk will include AWS Lambda functions, and the session shall conclude with a demonstration on integrating Lambda functions into the GraphQL schema, a discussion of the problems of using Lambda functions with GraphQL, and the solution to the issues that surface.",
+            links:[
+                {link: "https://kommunity.com/cloud-turkey/events/259463051", icon: <IoGlobeSharp/>}
+            ] 
+        },
     ]
 
 };

@@ -19,29 +19,7 @@ import './Portfolio.css'
 const Portfolio = () => {
 
     const [tabValue, setTabValue] =useState('All');
-    const [talkDialog, setTalkDialog] = useState(false)
-
-    /*
-    const TalkDialog = () => (
-        <Dialog open={talkDialog} onClose={() => setTalkDialog(false)} >
-            <DialogTitle onClose={() => setTalkDialog(false)}>
-                {talkDialog.title}
-            </DialogTitle>
-            <img src="" alt=""/>
-            <DialogContent>
-                {talkDialog.description}
-            </DialogContent>
-
-            <DialogActions>
-                {talkDialog?.links?.map((link)=> (
-                    <a href={link.link} target ="_blank">
-                        {link.icon}
-                    </a>
-                ))}
-            </DialogActions>
-        </Dialog>
-    )
-     */               
+              
     return (
 
         <>
@@ -113,9 +91,9 @@ const Portfolio = () => {
                                 <Card className='customCard'>
                                     <a href={blog.link} target="_blank">
                                         <CardActionArea>
-                                            <CardMedia className = 'customeCard_image' image={blog.image} title={blog.title}/>
+                                            <CardMedia className = 'customCard_image' image={blog.image} title={blog.title}/>
                                             <CardContent>
-                                                <Typography variant='body2' className='customeCard_title'>{blog.title}</Typography>
+                                                <Typography variant='body2' className='customCard_title'>{blog.title}</Typography>
                                             </CardContent>
                                         </CardActionArea>
                                     </a>

@@ -1,0 +1,31 @@
+/* Cards*/
+.eventCard{
+    height: 100%;
+    width: 400px;
+    border-radius: 5px;
+    outline-width: 0px !important;
+    padding-bottom: 20px !important;
+    color: darkslategray !important;
+}
+
+.eventCard :hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.eventCard .eventCard_image{
+    height: 150px;
+    max-width: 400px;
+}
+
+.eventCard .eventCard_title{
+    font-weight: 500;
+}
+
+.eventCard .eventCard_description{
+    
+}
+
+.dialogImage{
+    width: 100%;
+}

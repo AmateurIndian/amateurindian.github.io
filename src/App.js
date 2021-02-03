@@ -6,10 +6,12 @@ import Profile from './components/Profile/Profile'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Portfolio from './pages/Portfolio/Portfolio'
+import Speaking from './pages/Speaking/Speaking'
 import Resume from './pages/Resume/Resume'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css';
+
 
 
 
@@ -29,6 +31,9 @@ function App() {
             <Switch>
               <Route path="/portfolio">
                 <Portfolio></Portfolio>
+              </Route>
+              <Route path="/speaking">
+                <Speaking></Speaking>
               </Route>
               <Route path="/">
                 <Resume></Resume>
