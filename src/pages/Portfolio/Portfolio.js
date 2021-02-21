@@ -13,6 +13,7 @@ import { Grid,
     DialogContent,
     DialogActions} from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
+import blogRegistry from '../../utils/blogRegistry';
 
 import './Portfolio.css'
 
@@ -84,7 +85,7 @@ const Portfolio = () => {
             {/*Blogs*/}
             <Grid item xs={12}>
                 <Grid container spacing={2}>
-                    {resumeData.blogs.map(blog =>(
+                    {blogRegistry.blogs.map(blog =>(
                         <>
                         {tabValue == blog.tag || tabValue == 'All' ? (                        <Grid item>
                             <Grow in timeout={1000}>

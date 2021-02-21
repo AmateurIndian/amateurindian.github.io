@@ -8,8 +8,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import resumeData from '../../utils/resumeData'
 import TimelineContent from '@material-ui/lab/TimelineContent';
-import CardMembershipIcon from '@material-ui/icons/CardMembership';
-import AWS1 from '../../../src/assets/images/AWS1.png'
+import CardMembershipIcon from '@material-ui/icons/CardMembership'
 
 import './Resume.css'
 
@@ -17,6 +16,17 @@ const Resume = () => {
     return (
 
         <>
+            <Grid container className='section pb_45'>
+                <Grid item className='section_title mb_30'>
+                    <span></span>
+                    <h6 className='section_title_text'>About</h6>
+                </Grid>
+
+                <Typography  variant='subtitle1' className='timeline_description'>
+                An engineer turned product manager with tech evangelism experiance. Greatly passionate about building disruptive products, and leveraging cloud computing and everything DevOps.
+                Can be found talking about technology and philosophy while laughing at the comedies of life.
+                </Typography>
+            </Grid>
 
             {/* Experiance/Eduction */}
             <Grid container className='section pb_45'>

@@ -1,16 +1,14 @@
 import {Typography } from '@material-ui/core'
 
 import React from 'react'
-import testImage from "../../assets/images/profile_image.jpg";
+import testImage from "../../assets/images/profile_image.png";
 import './Profile.css'
 import CustomTimeline, {CustomTimelineSeperator} from "../Timeline/CustomTimeline";
 import CustomButton from "../Button/CustomerButton"
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import PersonOutlineIcon from '@material-ui/icons/Person';
 import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
-import Pdf from '../../assets/documents/syusuf_CV.pdf'
-
 
 
 
