@@ -356,6 +356,40 @@ export default{
     speaking: [
 
         {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/pp.png",
+            title: "Scaling Product Teams When Going Remote",
+            eventName: "The Product People",
+            date: "18/05/2021",
+            description: "An intro into the general perception of remote work, especially in the current environment with COVID-19. Quantitative and qualitative data of how remote work has transformed in the past few years, the willingness to go remote, and actual response to remote work cultures in different team sizes and company cultures.",
+            links:[
+                {link: "https://www.meetup.com/productmanagementpeople/events/277607438/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/dod_kyiv.png",
+            title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
+            eventName: "DevOps Days Kyiv",
+            date: "22/04/2021",
+            description: "Adopting DevOps is hard, especially since there are barriers in the form of the required efforts, learning curve, and the potential cost of changing current practices. Therefore. in this lightning talk, we will go over 5 lightweight solutions in how serverless technologies can be leveraged to boost your DevOps infrastructure in a manner that will incur low cost and effort while unleashing maximum potential.",
+            links:[
+                {link: "https://devopsdays.com.ua/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/sc.png",
+            title: "Serverless in a DevOps World",
+            eventName: "[Poscast]: Serverless Chats",
+            date: "02/01/2021",
+            description: "On this episode, Jeremy chats with Sarjeel Yusuf about the value of DevOps for modern application development teams, how serverless makes it easier to shift left and deploy better software faster, why CI/CD is so important, and how serverless can help you automate all the things.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=T7eUUUBRZQQ", icon: <IoLogoYoutube/>},
+                {link: "https://www.serverlesschats.com/89/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
             image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/cff9b616-8a09-4230-8721-d25d4edf08f8.png",
             title: "DevOps for Monolith",
             eventName: "Atlassian team.work 2020 Summit",
@@ -379,7 +413,7 @@ export default{
         },
 
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/download.jpeg",
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/ndc_sydney.jpeg",
             title: "Tackling Dreaded .Net Cold Starts When Going Serverless",
             eventName: "NDC Sydney",
             date: "18/10/2019",

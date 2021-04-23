@@ -11,6 +11,27 @@ export default{
         },
 
         {
+            tag: "Cloud Computing",
+            image: "https://blog.thundra.io/hubfs/ActiveActive%20Multi-Region%20Systems%20on%20Steroids%20With%20Serverless.png",
+            title: "Active/Active Multi-Region Systems on Steroids With Serverless",
+            link: "https://blog.thundra.io/active/active-multi-region-systems-on-steroids-with-serverless"
+        },
+
+        {
+            tag: "DevOps",
+            image: "https://dz2cdn3.dzone.com/thumbnail?fid=14591738&w=125&h=200",
+            title: "The Myth of NoOps",
+            link: "https://dzone.com/articles/the-myth-of-noops"
+        },
+
+        {
+            tag: "DevOps",
+            image: "https://blog.thundra.io/hubfs/Ebbs%20and%20Flows%20Of%20DevOps%20Debugging%20PART%202.png",
+            title: "Ebbs and Flows Of DevOps Debugging PART 2",
+            link: "https://blog.thundra.io/ebbs-and-flows-of-devops-debugging-part-2"
+        },
+
+        {
             tag: "DevOps",
             image: "https://blog.thundra.io/hubfs/Ebbs%20and%20Flows%20Of%20DevOps%20Debugging%20PART%20111.png",
             title: "Ebbs and Flows Of DevOps Debugging PART 1",
@@ -226,10 +247,6 @@ export default{
             title: "Detailed Serverless Monitoring Using a Completely Automated Approach",
             link: "https://blog.thundra.io/detailed-serverless-monitoring-using-a-completely-automated-approach"
         },
-
-
-
-
 
     ],
 };
