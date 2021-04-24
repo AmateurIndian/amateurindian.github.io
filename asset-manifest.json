@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.01aa4523.chunk.css",
-    "main.js": "/static/js/main.6db7eb6f.chunk.js",
-    "main.js.map": "/static/js/main.6db7eb6f.chunk.js.map",
+    "main.js": "/static/js/main.19cbe004.chunk.js",
+    "main.js.map": "/static/js/main.19cbe004.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d29c552.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d29c552.js.map",
     "static/css/2.40b2ded8.chunk.css": "/static/css/2.40b2ded8.chunk.css",
@@ -21,7 +21,6 @@
     "static/media/dzone.c98b4d5a.png": "/static/media/dzone.c98b4d5a.png",
     "static/media/dzone_badge.cc776f03.png": "/static/media/dzone_badge.cc776f03.png",
     "static/media/profile_image.a4e2d264.png": "/static/media/profile_image.a4e2d264.png",
-    "static/media/syusuf_CV.492e07a8.pdf": "/static/media/syusuf_CV.492e07a8.pdf",
     "static/media/thundrablog.0232ce06.png": "/static/media/thundrablog.0232ce06.png"
   },
   "entrypoints": [
@@ -29,6 +28,6 @@
     "static/css/2.40b2ded8.chunk.css",
     "static/js/2.065c0f71.chunk.js",
     "static/css/main.01aa4523.chunk.css",
-    "static/js/main.6db7eb6f.chunk.js"
+    "static/js/main.19cbe004.chunk.js"
   ]
 }
