@@ -373,6 +373,7 @@ export default{
             date: "22/04/2021",
             description: "Adopting DevOps is hard, especially since there are barriers in the form of the required efforts, learning curve, and the potential cost of changing current practices. Therefore. in this lightning talk, we will go over 5 lightweight solutions in how serverless technologies can be leveraged to boost your DevOps infrastructure in a manner that will incur low cost and effort while unleashing maximum potential.",
             links:[
+                {link: "https://www.youtube.com/watch?v=K3VnleYz3uc&list=PL_O8YSX8ckfdHmLtsdpKy2oFwTOxe5BRs&index=19", icon: <IoLogoYoutube/>},
                 {link: "https://devopsdays.com.ua/", icon: <IoGlobeSharp/>}
             ] 
         },
