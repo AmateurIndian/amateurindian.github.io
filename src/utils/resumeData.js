@@ -9,6 +9,9 @@ import { IoGlobeSharp } from "@react-icons/all-files/io5/IoGlobeSharp";
 import aws1 from '../assets/images/AWS1.png';
 import coreDev from "../assets/images/dzone_badge.png";
 import dzone from '../assets/images/dzone.png';
+import hubspot from '../assets/images/hubspot_cert.png';
+import datadog from '../assets/images/datadog_badge.png';
+import awscomm from '../assets/images/aws_comm_badge.png';
 import tns from '../assets/images/thenewstack.png';
 import devops from '../assets/images/devops.png';
 import thundra from '../assets/images/thundrablog.png';
@@ -52,25 +55,25 @@ export default{
             company: 'Atlassian',
             date: 'July 2019 - Present',
             job: 'Product Manager',
-            description: '- Introduced and responsible for Opsgenie\'s DevOps enabling flagship feature. \n- Responsible for all pure UI related projects and introduced the new navigation bar which resulted in a direct increase of 0.4 in Opsgenie CSAT score. \n- Involved in building an Atlassian wide data platform product. \n- Product Management to four teams across three different time zones.',
+            description: 'Introduced and fully owned next-gen flagship solution which aligns JSM and Opsgenie to shifting market demands. \nImplemented AAARRR principles to promote growth in new flagship features increasing utilization. \nLed Frontend team in revamping product navigation, validated using A/B testing, achieving improvement in CSAT score by 0.4. \nLed company-wide platform platform project unifying data layer to increase velocity of when building cross-product features. \nManaged teams across 4 time zones to align and coordinate on OKRs achiving desired KPIs',
         },
         atlassianENG:{
             company: 'Atlassian',
             date: 'February 2019 - July 2019',
             job: 'Software Engineer',
-            description: '- Co-lead in building Opsgenie\'s In-app announcemnt microservice. \n- Developed short-codes for the products SMS messaging service. \n- Worked on Atlassian microservices on AWS architecture',
+            description: 'Co-lead in building Opsgenie\'s In-app announcemnt microservice. \nDeveloped short-codes for the products SMS messaging service. \nImplmented basecode for Opsgenie\'s new scheduling microservices on AWS architecture',
         },
         thundra:{
             company: 'Thundra.io',
             date: 'July 2018 - February 2019',
-            job: 'Junior Software Engineer',
-            description: '- Worked alongside a senior engineer to build the first version of Thundra\'s .NET agent. \n- Co-lead in building onboarding dashboard using React.js and associated tools. \n- Debugging detected bugs by using monitoring tools such as AWS CloudWatch.'
+            job: 'Software Engineer',
+            description: 'Worked alongside a senior engineer to build the first version of Thundra\'s .NET agent.Co-lead in building onboarding dashboard using React.js and associated tools. \nDebugging detected bugs by using monitoring tools such as AWS CloudWatch.'
         },
         tarla:{
             company: 'Tarla.io',
             date: 'January 2018 - June 2018',
             job: 'Machine Learning Engineer',
-            description: '- Performed Image processing on satellite images of farmland to detect different crops in a field. \n- Performed data mining, and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks. '
+            description: 'Performed Image processing on satellite images of farmland to detect different crops in a field. \nPerformed data mining, and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks. '
         },   
     },
 
@@ -91,12 +94,36 @@ export default{
 
     certification:{
 
+        awscomm:{
+            issuer: 'Amazon Web Services',
+            level: 'AWS Community Builder',
+            date: 'May 2021',
+            link: 'https://aws.amazon.com/developer/community/community-builders/',
+            image: awscomm
+        },
+
         aws1:{
             issuer: 'Amazon Web Services',
             level: 'Cloud Practitioner',
             date: 'Jul 2019',
             link: 'https://www.youracclaim.com/badges/34c407e9-b7cd-4083-9c53-ad1e02e8b6db?source=linked_in_profile',
             image: aws1
+        },
+
+        datadogintro:{
+            issuer: 'Datadog Learning Center',
+            level: 'Introduction to Datadog',
+            date: 'May 2021',
+            link: 'https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/certificates/datadog.pdf',
+            image: datadog
+        },
+
+        inboundhub:{
+            issuer: 'Hubspot Academy',
+            level: 'Inbound Methodology',
+            date: 'Feb 2021',
+            link: 'https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/certificates/hubspot.png',
+            image: hubspot
         },
 
         coreDev:{
