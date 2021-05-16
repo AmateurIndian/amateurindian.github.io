@@ -61,7 +61,7 @@ export default{
             company: 'Atlassian',
             date: 'February 2019 - July 2019',
             job: 'Software Engineer',
-            description: 'Co-lead in building Opsgenie\'s In-app announcemnt microservice. \nDeveloped short-codes for the products SMS messaging service. \nImplmented basecode for Opsgenie\'s new scheduling microservices on AWS architecture',
+            description: 'Co-lead in building Opsgenie\'s In-app announcemnt microservice. \nDeveloped short-codes for the products SMS messaging service. \Implmented basecode for Opsgenie\'s new scheduling microservices on AWS architecture',
         },
         thundra:{
             company: 'Thundra.io',
@@ -94,12 +94,36 @@ export default{
 
     certification:{
 
+        awscomm:{
+            issuer: 'Amazon Web Services',
+            level: 'AWS Community Builder',
+            date: 'May 2021',
+            link: 'https://aws.amazon.com/developer/community/community-builders/',
+            image: awscomm
+        },
+
         aws1:{
             issuer: 'Amazon Web Services',
             level: 'Cloud Practitioner',
             date: 'Jul 2019',
             link: 'https://www.youracclaim.com/badges/34c407e9-b7cd-4083-9c53-ad1e02e8b6db?source=linked_in_profile',
             image: aws1
+        },
+
+        datadogintro:{
+            issuer: 'Datadog Learning Center',
+            level: 'Introduction to Datadog',
+            date: 'May 2021',
+            link: 'https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/certificates/datadog.pdf',
+            image: datadog
+        },
+
+        inboundhub:{
+            issuer: 'Hubspot Academy',
+            level: 'Inbound Methodology',
+            date: 'Feb 2021',
+            link: 'https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/certificates/hubspot.png',
+            image: hubspot
         },
 
         coreDev:{
