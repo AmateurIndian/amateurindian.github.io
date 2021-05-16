@@ -73,7 +73,7 @@ export default{
             company: 'Tarla.io',
             date: 'January 2018 - June 2018',
             job: 'Machine Learning Engineer',
-            description: 'Performed Image processing on satellite images of farmland to detect different crops in a field. \nPerformed data mining, and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks. '
+            description: 'Performed image processing on satellite images of farmland to detect different crops in a field. \nPerformed data mining, and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks. '
         },   
     },
 
