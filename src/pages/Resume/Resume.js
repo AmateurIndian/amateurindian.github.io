@@ -23,7 +23,7 @@ const Resume = () => {
                 </Grid>
 
                 <Typography  variant='subtitle1' className='timeline_description'>
-                An engineer turned product manager at Atlassian and AWS community buulder. Greatly passionate about building disruptive products, and leveraging cloud computing and everything DevOps.
+                An engineer turned product manager at Atlassian and AWS community builder. Greatly passionate about building disruptive products, and leveraging cloud computing and everything DevOps.
                 Can be found talking about technology and philosophy while laughing at the comedies of life.
                 </Typography>
             </Grid>
@@ -119,8 +119,6 @@ const Resume = () => {
         </>
 
     )
-        
-
 }
 
 export default Resume
