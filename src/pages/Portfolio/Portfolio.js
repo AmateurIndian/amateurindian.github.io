@@ -72,7 +72,7 @@ const Portfolio = () => {
                         value='All'
                         className = {tabValue == 'All' ? 'customTabs_item active': 'customTabs_item' } 
                     />
-                    {[...new Set(resumeData.blogs.map(item => item.tag))].map(tag =>(
+                    {[...new Set(blogRegistry.blogs.map(item => item.tag))].map(tag =>(
                         <Tab 
                             label={tag}
                             value ={tag}

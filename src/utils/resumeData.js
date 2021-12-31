@@ -26,10 +26,10 @@ export default{
     name: 'Sarjeel Yusuf',
     title: 'Engineer Turned Product Manager',
     job_role: 'Product Manager',
-    company: 'Atlassian',
+    company: 'Datadog',
     email: 'sarj93@gmail.com',
     phone: '+905514426217',
-    address: '25/7, Ufuk University Cadessi, Cukurambar, Ankara - 06510 TURKEY',
+    address: '11 Rue du Dr Paul Brousse, Paris - 75017 FRANCE',
 
     social:{
         linkedin:{
@@ -51,9 +51,15 @@ export default{
     },
 
     work:{
+        ddog:{
+            company: 'Datadog',
+            date: 'November 2021 - Present',
+            job: 'Product Manager',
+            description: 'DevOps Automation \nIncident App',
+        },
         atlassian:{
             company: 'Atlassian',
-            date: 'July 2019 - Present',
+            date: 'July 2019 - November 2021',
             job: 'Product Manager',
             description: 'Introduced and fully owned next-gen flagship solution which aligns JSM and Opsgenie to shifting market demands. \nImplemented AAARRR principles to promote growth in new flagship features increasing utilization. \nLed Frontend team in revamping product navigation, validated using A/B testing, achieving improvement in CSAT score by 0.4. \nLed company-wide platform platform project unifying data layer to increase velocity of when building cross-product features. \nManaged teams across 4 time zones to align and coordinate on OKRs achiving desired KPIs',
         },
@@ -163,224 +169,31 @@ export default{
         }
     },
 
-    blogs: [
-        {
-            tag: "Product Management",
-            image: "https://hackernoon.com/images/fNRMw5jFDeSGIovubGOuX9XvR0Z2-bj3v310a.jpeg",
-            title: "Are We Measuring Product Success Correctly? - Advice for PMs",
-            link: "https://hackernoon.com/are-we-measuring-product-success-correctly-advice-for-pms-z54f34dt"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/CaaS%20Services%20Through%20AWS,%20Azure,%20and%20Google%20Cloud.png",
-            title: "CaaS Services Through AWS, Azure, and Google Cloud",
-            link: "https://blog.thundra.io/caas-services-through-aws-azure-and-google-cloud"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn3.dzone.com/thumbnail?fid=13817578&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=45",
-            title: "Breaking Down Serverless Anti-Patterns",
-            link: "https://dzone.com/articles/breaking-down-serverless-anti-patterns"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://cdn.thenewstack.io/media/2020/10/8bfc6b06-lion-4683920_1280-1024x682.jpg",
-            title: "A 2020 Guide to Computing on Amazon Web Services",
-            link: "https://thenewstack.io/a-2020-guide-to-computing-on-amazon-web-services/"
-        },
-
-        {
-            tag: "DevOps",
-            image: "https://blog.thundra.io/hubfs/Blog-Featured-Image%28StrengtheningObservabilityWithDashboardasCode%29.png",
-            title: "Strengthening Observability With Dashboard as Code",
-            link: "https://blog.thundra.io/strengthening-observability-with-dashboard-as-code"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://cdn.thenewstack.io/media/2020/10/b00d98be-peacock-feathers-3013486_1280-1024x683.jpg",
-            title: "Avoiding Serverless Anti-Patterns with Observability",
-            link: "https://thenewstack.io/avoiding-serverless-anti-patterns-with-observability/"
-        },
-
-        {
-            tag: "DevOps",
-            image: "https://3ovyg21t17l11k49tk1oma21-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/serverless.jpg",
-            title: "How Serverless Technologies Can Achieve Optimal DevOps Practices",
-            link: "https://devops.com/how-serverless-technologies-can-achieve-optimal-devops-practices/"
-        },
-
-        {
-            tag: "DevOps",
-            image: "https://miro.medium.com/max/1000/1*NLHywA0dSJyTR_mIP5pKYA.png",
-            title: "An Observability Balancing Act With Gitops",
-            link: "https://medium.com/thundra/an-observability-balancing-act-with-gitops-a3366daef7a1"
-        },
-
-        {
-            tag: "DevOps",
-            image: "https://dz2cdn1.dzone.com/thumbnail?fid=13521088&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Under the Hood of GitOps",
-            link: "https://dzone.com/articles/under-the-hood-of-gitops"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://miro.medium.com/max/1000/1*eDfkZLSUz27AaEwF1LSL4g.png",
-            title: "Expanding the Serverless War Chest With AWS EFS",
-            link: "https://blog.thundra.io/expanding-the-serverless-war-chest-with-aws-efs"
-        },
-
-        {
-            tag: "DevOps",
-            image: "https://community.atlassian.com/html/assets/atlassian-community-opengraph.png",
-            title: "DevOps Just Got a Whole Lot Easier with Opsgenie and AWS CloudFormation Registry and CLI",
-            link: "https://community.atlassian.com/t5/DevOps-Articles/DevOps-Just-Got-a-Whole-Lot-Easier-with-Opsgenie-and-AWS/ba-p/1230979"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=13271929&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "The Serverless Path to DevOps",
-            link: "https://dzone.com/articles/the-serverless-path-to-devops"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/2.1.png",
-            title: "The Comforts of GraphQL with AWS AppSync",
-            link: "https://blog.thundra.io/the-comforts-of-graphql-with-aws-appsync"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=13088613&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Provisioned Concurrency: The Silver Bullet to AWS Lambda Cold Starts",
-            link: "https://dzone.com/articles/provisioned-concurrency-the-silver-bullet-to-aws-l"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn3.dzone.com/thumbnail?fid=12937666&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Introducing Quantum-as-a-Service with AWS Braket",
-            link: "https://dzone.com/articles/introducing-quantum-as-a-service-with-aws-braket"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/blog-images/lambda%20destinations/lambda-destinations.png",
-            title: "A Step Towards Observability with Lambda Destinations",
-            link: "https://blog.thundra.io/a-step-towards-observability-with-lambda-destinations"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn1.dzone.com/thumbnail?fid=12744020&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Rethinking Serverless Architectures With Eventbridge",
-            link: "https://dzone.com/articles/rethinking-serverless-architectures-with-eventbrid"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn4.dzone.com/thumbnail?fid=12525335&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Rethinking Serverless Architectures With Eventbridge",
-            link: "https://dzone.com/articles/explaining-eventbridge-amidst-the-hype"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/blog-images/%5BBlogBuilding%20Serverless%20IoT%20Systems%20from%20Node-RED%20to%20AWS%20Lambda%5D/%C4%B1ot-nodered-to-aws-lambda.png",
-            title: "Building Serverless IoT Systems from Node-RED to AWS Lambda",
-            link: "https://blog.thundra.io/building-serverless-iot-systems-from-node-red-to-aws-lambda"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://community.atlassian.com/html/assets/atlassian-community-opengraph.png",
-            title: "Building for the Cloud with Atlassian's Opsgenie and AWS Eventbridge",
-            link: "https://community.atlassian.com/t5/Opsgenie-articles/Building-for-the-Cloud-with-Atlassian-s-Opsgenie-and-AWS/ba-p/1244404"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn1.dzone.com/thumbnail?fid=12218584&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Accelerating Agile With Serverless",
-            link: "https://dzone.com/articles/accelerating-agile-with-serverless"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=11995113&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Getting It Right Between EC2, Fargate and Lambda",
-            link: "https://dzone.com/articles/getting-it-right-between-ec2-fargate-and-lambda"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=11885473&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "The Best of Both Worlds With AWS Fargate",
-            link: "https://dzone.com/articles/the-best-of-both-worlds-with-aws-fargate"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=11815237&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Using IoT and Serverless: Tackling Global Issues",
-            link: "https://dzone.com/articles/using-iot-with-serverless-to-tackle-global-issues"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=11815237&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Using IoT and Serverless: Tackling Global Issues",
-            link: "https://dzone.com/articles/using-iot-with-serverless-to-tackle-global-issues"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/blog-images/Making%20AppSync%20Easier%20with%20Thundra/making-appsync-easier-with-thundra.png",
-            title: "Making AppSync Easier with Thundra",
-            link: "https://blog.thundra.io/making-appsync-easier-with-thundra"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn2.dzone.com/thumbnail?fid=11714597&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "Holy Grail of Solutions: Solving .NET Lambda Cold Start Part 2",
-            link: "https://dzone.com/articles/holy-grail-of-solutions-solving-net-lambda-cold-st"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn4.dzone.com/thumbnail?fid=11691719&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "The Fundamental Problem: Solving .NET Lambda Cold Starts, Part 1",
-            link: "https://dzone.com/articles/the-fundamental-problem-solving-net-lambda-cold-st"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://dz2cdn4.dzone.com/thumbnail?fid=11092787&w=125&caller=dzImageFid-article.listV2&uri=/users/3508676/syedsarj.html&h=200",
-            title: "The Comforts of GraphQL With AWS AppSync",
-            link: "https://dzone.com/articles/the-comforts-of-graphql-with-aws-appsync"
-        },
-
-        {
-            tag: "Cloud Computing",
-            image: "https://blog.thundra.io/hubfs/detailed-serverless-monitoring-blog.png",
-            title: "Detailed Serverless Monitoring Using a Completely Automated Approach",
-            link: "https://blog.thundra.io/detailed-serverless-monitoring-using-a-completely-automated-approach"
-        },
-
-
-
-
-
-    ],
-
     speaking: [
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/DD_DC.png",
+            title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
+            eventName: "DevOps Days DC",
+            date: "04/11/2021",
+            description: "Adopting DevOps is hard, especially since there are barriers in the form of the required efforts, learning curve, and the potential cost of changing current practices. Therefore. in this lightning talk, we will go over 5 lightweight solutions in how serverless technologies can be leveraged to boost your DevOps infrastructure in a manner that will incur low cost and effort while unleashing maximum potential.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=ouRW5PeN990&t=1260s", icon: <IoLogoYoutube/>},
+                {link: "https://devopsdays.org/events/2021-washington-dc/welcome/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+
+        {
+            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/DD_Cairo.jpeg",
+            title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
+            eventName: "DevOps Days Cairo",
+            date: "29/09/2021",
+            description: "Adopting DevOps is hard, especially since there are barriers in the form of the required efforts, learning curve, and the potential cost of changing current practices. Therefore. in this lightning talk, we will go over 5 lightweight solutions in how serverless technologies can be leveraged to boost your DevOps infrastructure in a manner that will incur low cost and effort while unleashing maximum potential.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=EpZqHb7F4lI", icon: <IoLogoYoutube/>},
+                {link: "https://devopsdays.org/events/2021-cairo/welcome/", icon: <IoGlobeSharp/>}
+            ] 
+        },
 
         {
             image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/pp.png",
