@@ -17,6 +17,16 @@ import devops from '../assets/images/devops.png';
 import thundra from '../assets/images/thundrablog.png';
 import atlascomm from '../assets/images/atlascom.png';
 import defaultAtlassianImage from '../assets/images/atlassian-community-opengraph.png';
+import DD_DC from '../assets/images/speaking/5_Serverless_Powerups_for_your_DevOps_Infrastructure_in_5_minutes_DevOps_Days_DC.png';
+import DD_Cairo from '../assets/images/speaking/5_Serverless_Powerups_for_your_DevOps_Infrastructure_in_5_minutes_DevOps_Days_Cairo.png';
+import DD_Kyiv from '../assets/images/speaking/5_Serverless_Powerups_for_your_DevOps_Infrastructure_in_5_minutes_DevOps_Days_Kyiv.jpg';
+import Scaling_Product_Teams from '../assets/images/speaking/Scaling_Product_Teams_When_Going_Remote_The_Product_People.jpg';
+import Serverless_Chats from '../assets/images/speaking/Serverless_in_a_DevOps_World_Serverless_Chats.jpg';
+import Better_IoT_GraphQL_Asia from '../assets/images/speaking/Better_IoT_with_Serverless_GraphQL_GraphQL_Asia.jpg';
+import Better_IoT_ServerlessDays from '../assets/images/speaking/Better_IoT_with_Serverless_GraphQL_ServerlessDays_Istanbul.png';
+import Tackling_DotNet_NDC_Sydney from '../assets/images/speaking/Tackling_Dreaded_DotNet_Cold_Starts_When_Going_Serverless_NDC_Sydney.png';
+import Atlas_Camp_Austria from '../assets/images/speaking/The_Right_Way_to_Cloud_Compute_Lessons_Learnt_at_Opsgenie_Atlas_Camp_Austria.png';
+import Automation_Best_Practices_SREDay_London_2023 from '../assets/images/speaking/Automation_Best_Practices_for_SRE_and_Security_SREDay_London_2023.jpg';
 
 
 
@@ -55,31 +65,53 @@ export default{
             company: 'Datadog',
             date: 'November 2021 - Present',
             job: 'Product Manager',
-            description: 'DevOps Automation \nIncident App',
+            description: [
+              "Drove a 10% increase in APM trial adoption by enabling all trial customers to activate APM and RUM with a single agent install.",
+              "Accelerated onboarding, resulting in 45% of trial users adopting Datadog APM via new auto-instrumentation for SDKs.",
+              "Launched and owned Datadog Workflow Automation, achieving 25% month-over-month adoption from concept to release in 2023.",
+              "Delivered AI-powered workflow building and editing, with 60% of users leveraging these features for remediation workflows."
+            ],
         },
         atlassian:{
             company: 'Atlassian',
             date: 'July 2019 - November 2021',
             job: 'Product Manager',
-            description: 'Introduced and fully owned next-gen flagship solution which aligns JSM and Opsgenie to shifting market demands. \nImplemented AAARRR principles to promote growth in new flagship features increasing utilization. \nLed Frontend team in revamping product navigation, validated using A/B testing, achieving improvement in CSAT score by 0.4. \nLed company-wide platform platform project unifying data layer to increase velocity of when building cross-product features. \nManaged teams across 4 time zones to align and coordinate on OKRs achiving desired KPIs',
+            description: [
+              'Introduced and fully owned next-gen flagship solution which aligns JSM and Opsgenie to shifting market demands.',
+              'Implemented AAARRR principles to promote growth in new flagship features increasing utilization.',
+              'Led Frontend team in revamping product navigation, validated using A/B testing, achieving improvement in CSAT score by 0.4.',
+              'Led company-wide platform platform project unifying data layer to increase velocity of when building cross-product features.',
+              'Managed teams across 4 time zones to align and coordinate on OKRs achieving desired KPIs.'
+            ],
         },
         atlassianENG:{
             company: 'Atlassian',
             date: 'February 2019 - July 2019',
             job: 'Software Engineer',
-            description: 'Co-lead in building Opsgenie\'s In-app announcemnt microservice. \nDeveloped short-codes for the products SMS messaging service. \Implmented basecode for Opsgenie\'s new scheduling microservices on AWS architecture',
+            description: [
+              "Co-lead in building Opsgenie's In-app announcement microservice.",
+              "Developed short-codes for the product's SMS messaging service.",
+              "Implemented basecode for Opsgenie's new scheduling microservices on AWS architecture."
+            ],
         },
         thundra:{
             company: 'Thundra.io',
             date: 'July 2018 - February 2019',
             job: 'Software Engineer',
-            description: 'Worked alongside a senior engineer to build the first version of Thundra\'s .NET agent.Co-lead in building onboarding dashboard using React.js and associated tools. \nDebugging detected bugs by using monitoring tools such as AWS CloudWatch.'
+            description: [
+              "Worked alongside a senior engineer to build the first version of Thundra's .NET agent.",
+              "Co-lead in building onboarding dashboard using React.js and associated tools.",
+              "Debugged detected bugs by using monitoring tools such as AWS CloudWatch."
+            ]
         },
         tarla:{
             company: 'Tarla.io',
             date: 'January 2018 - June 2018',
             job: 'Machine Learning Engineer',
-            description: 'Performed image processing on satellite images of farmland to detect different crops in a field. \nPerformed data mining, and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks. '
+            description: [
+              "Performed image processing on satellite images of farmland to detect different crops in a field.",
+              "Performed data mining and classification along with techniques such as SVM and Clustering, and eventually branching out into neural networks."
+            ]
         },   
     },
 
@@ -170,9 +202,19 @@ export default{
     },
 
     speaking: [
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/DD_DC.png",
+            image: Automation_Best_Practices_SREDay_London_2023,
+            title: "Automation Best Practices for SRE and Security",
+            eventName: "SREDay London 2023",
+            date: "2023",
+            description: "Shared actionable best practices for workflow automation in SRE and Security, based on real-world customer experiences across organizations of all sizes. Covered how to identify processes for automation, enable smart and secure automation, break down workflows into reusable modules, and manage automation as a service. Illustrated each best practice with real-life examples, highlighting both common pitfalls and successful strategies for resilient, scalable automation.",
+            links:[
+                {link: "https://www.youtube.com/watch?v=y4q7q1NNWo4", icon: <IoLogoYoutube/>},
+                {link: "https://sreday.com/", icon: <IoGlobeSharp/>}
+            ]
+        },
+        {
+            image: DD_DC,
             title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
             eventName: "DevOps Days DC",
             date: "04/11/2021",
@@ -182,9 +224,8 @@ export default{
                 {link: "https://devopsdays.org/events/2021-washington-dc/welcome/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/DD_Cairo.jpeg",
+            image: DD_Cairo,
             title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
             eventName: "DevOps Days Cairo",
             date: "29/09/2021",
@@ -194,9 +235,8 @@ export default{
                 {link: "https://devopsdays.org/events/2021-cairo/welcome/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/pp.png",
+            image: Scaling_Product_Teams,
             title: "Scaling Product Teams When Going Remote",
             eventName: "The Product People",
             date: "18/05/2021",
@@ -205,9 +245,8 @@ export default{
                 {link: "https://www.meetup.com/productmanagementpeople/events/277607438/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/dod_kyiv.png",
+            image: DD_Kyiv,
             title: "5 Serverless Powerups for your DevOps Infrastructure in 5 minutes",
             eventName: "DevOps Days Kyiv",
             date: "22/04/2021",
@@ -217,9 +256,8 @@ export default{
                 {link: "https://devopsdays.com.ua/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/sc.png",
+            image: Serverless_Chats,
             title: "Serverless in a DevOps World",
             eventName: "[Poscast]: Serverless Chats",
             date: "02/01/2021",
@@ -229,20 +267,8 @@ export default{
                 {link: "https://www.serverlesschats.com/89/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/cff9b616-8a09-4230-8721-d25d4edf08f8.png",
-            title: "DevOps for Monolith",
-            eventName: "Atlassian team.work 2020 Summit",
-            date: "28/10/2020",
-            description: "As software building cultural practices evolve, we have seen a drift away from monolith to microservices. However, this change in shift is not experienced equally for all companies. This thus requires introspection into the available services and solutions for teams still running monolith systems. ",
-            links:[
-                {link: "https://events.atlassian.com/atlassian_teamwork_conference_2020_internal/home?sid=374000", icon: <IoGlobeSharp/>}
-            ] 
-        },
-
-        {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/Screen+Shot+2021-02-02+at+20.50.05.png",
+            image: Better_IoT_GraphQL_Asia,
             title: "Better IoT with Serverless GraphQL",
             eventName: "GraphQL Asia",
             date: "22/02/2020",
@@ -252,9 +278,18 @@ export default{
                 {link: "https://graphql.asia/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/ndc_sydney.jpeg",
+            image: Better_IoT_ServerlessDays,
+            title: "Better IoT with Serverless GraphQL",
+            eventName: "ServerlessDays Istanbul",
+            date: "03/10/2019",
+            description: "IoT was meant to revolutionize how we were meant to integrate tech into our lives. However, IoT adoption is dismal due to a myriad of problems. The solution lies in the way we service our IoT devices on the data and compute layer, and a serverless GraphQL architecture has all the solutions.",
+            links:[
+                {link: "https://istanbul.serverlessdays.io/", icon: <IoGlobeSharp/>}
+            ] 
+        },
+        {
+            image: Tackling_DotNet_NDC_Sydney,
             title: "Tackling Dreaded .Net Cold Starts When Going Serverless",
             eventName: "NDC Sydney",
             date: "18/10/2019",
@@ -264,20 +299,8 @@ export default{
                 {link: "https://ndcsydney.com/", icon: <IoGlobeSharp/>}
             ] 
         },
-
         {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/960x540.jpg",
-            title: "Better IoT with Serverless GraphQL",
-            eventName: "ServerlessDays Istanbul",
-            date: "03/10/2019",
-            description: "IoT was meant to revolutionize how we were meant to integrate tech into our lives. However, IoT adoption is dismal due to a myriad of problems. The solution lies in the way we service our IoT devices on the data and compute layer, and a serverless GraphQL architecture has all the solutions.",
-            links:[
-                {link: "https://istanbul.serverlessdays.io/", icon: <IoGlobeSharp/>}
-            ] 
-        },
-
-        {
-            image: "https://sarjeelyusufcv.s3.eu-central-1.amazonaws.com/730090180_1280x720.jpg",
+            image: Atlas_Camp_Austria,
             title: "The Right Way to Cloud Compute: Lessons Learnt at Opsgenie",
             eventName: "Atlas Camp Austria",
             date: "12/09/2019",

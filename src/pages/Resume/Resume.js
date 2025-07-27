@@ -52,7 +52,17 @@ const Resume = () => {
                                         <TimelineContent>
                                             <Typography className='timeline_title'>{resumeData.work[experiance].job } - {resumeData.work[experiance].company}</Typography>
                                             <Typography className='timeline_date'>{resumeData.work[experiance].date}</Typography>
-                                            <Typography  variant='body2' className='timeline_description'>{resumeData.work[experiance].description}</Typography>
+                                            <Typography  variant='body2' className='timeline_description'>
+  {Array.isArray(resumeData.work[experiance].description) ? (
+    <ul style={{ margin: 0, paddingLeft: '1.2em' }}>
+      {resumeData.work[experiance].description.map((item, idx) => (
+        <li key={idx} style={{ marginBottom: '0.5em' }}>{item}</li>
+      ))}
+    </ul>
+  ) : (
+    resumeData.work[experiance].description
+  )}
+</Typography>
                                         </TimelineContent>
                                     </TimelineItem>
 

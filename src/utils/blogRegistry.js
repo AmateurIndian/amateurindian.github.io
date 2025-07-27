@@ -4,6 +4,18 @@ export default{
 
     blogs: [
         {
+            tag: "DevOps",
+            image: "https://imgix.datadoghq.com/img/blog/single-step-instrumentation/single-step-hero.png?auto=compress%2Cformat&cs=origin&lossless=true&fit=max&q=75&w=1400&dpr=2",
+            title: "Achieve total app visibility in minutes with Single Step Instrumentation",
+            link: "https://www.datadoghq.com/blog/single-step-instrumentation/"
+        },
+        {
+            tag: "DevOps",
+            image: "https://imgix.datadoghq.com/img/blog/azure-workflow-automation/azure-actions-hero.png?auto=compress%2Cformat&cs=origin&lossless=true&fit=max&q=75&w=1400&dpr=2",
+            title: "Azure Workflow Automation: Streamline and Secure Your Cloud Operations",
+            link: "https://www.datadoghq.com/blog/azure-workflow-automation/"
+        },
+        {
             tag: "Product Management",
             image: "https://hackernoon.com/images/fNRMw5jFDeSGIovubGOuX9XvR0Z2-bj3v310a.jpeg",
             title: "Are We Measuring Product Success Correctly? - Advice for PMs",
